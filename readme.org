@@ -1,5 +1,6 @@
 #+STARTUP: indent
 * Overview
+This is a fork of Bavariancake's EFI configuration, with fixed sleep functionality
 Run macOS Mojave (10.14) or Catalina (10.15) on a Dell XPS 9570.
 
 Most pieces are fully supported, and this setup can be used as your main machine. A few pieces are
@@ -9,21 +10,19 @@ section.
 The EFI folder can be used to boot into a USB installer, or for regular booting.
 ** Tested hardware configuration
 - Dell XPS 9570
-  - CPU: Intel i9-8950HK
-  - Memory: 32GB 2x SK Hynix HMA82GS6CJR8N-VK
-  - Display: 4k Sharp
-  - SSD: Toshiba 2TB KXG50PNV2T04
+  - CPU: Intel i7-8750HK
+  - Memory: 32GB 2x Corsair Dominator 2666MHz
+  - Display: 1080p
+  - SSD: 1TB WD Blue
   - Trackpad: Synaptics SYNA2393
-  - Touchscreen: Wacom WCOM488F
   - Sound: Realtek ALC3266 (similar to ALC298)
   - Goodix fingerprint reader
-  - Dell 6GTPY battery (11.4V, 8083mAh, 97Wh stated capacity, reports as 7488mAh)
+  - Dell 6GTPY battery (11.4V, 8083mAh, 97Wh stated capacity, reports as 7489mAh)
 - Software environment
-  - Dual-booting Windows 10
 ** Tested software configurations
-- macOS Mojave: 10.14.0 - 10.14.6 (builds 18G84, 18G87, 18G95, 18G103, 18G1012)
-- macOS Catalina: 10.15 - 10.15.3
-- BIOS: 1.5.0 - 1.15.0
+- macOS Mojave: 10.14.6
+- macOS Catalina: 10.15.0 - 10.15.5
+- BIOS: 1.15.0
 * Hardware
 ** Graphics
 Integrated Intel UHD Graphics 630 support is handled by [[https://github.com/acidanthera/WhateverGreen][WhateverGreen]], and configured in the
