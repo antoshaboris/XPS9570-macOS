@@ -1,6 +1,7 @@
 #+STARTUP: indent
 * Overview
-This is a fork of Bavariancake's EFI configuration, with fixed sleep functionality
+This is a fork of Bavariancake's EFI configuration, with fixed sleep functionality and improved sound reliability upon boot.
+
 Run macOS Mojave (10.14) or Catalina (10.15) on a Dell XPS 9570.
 
 Most pieces are fully supported, and this setup can be used as your main machine. A few pieces are
